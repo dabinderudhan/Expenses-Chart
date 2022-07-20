@@ -1,7 +1,7 @@
 const graphContainer = document.querySelector(".spending-graph");
 
 async function fetchGraphData() {
-  const response = await fetch("/data.json");
+  const response = await fetch("./data.json");
   const jsonData = response.json();
   return jsonData;
 }
