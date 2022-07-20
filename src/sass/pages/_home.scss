@@ -1,0 +1,89 @@
+.header {
+  width: 100%;
+  justify-content: space-between;
+  background-color: $color-primary-red;
+  border-radius: 10px;
+  padding: 1rem;
+  color: #fff;
+}
+
+.spending {
+  background-color: $color-neutral-pale-orange;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+  align-items: start;
+  gap: 2rem;
+
+  &-heading {
+    font-size: 1.5rem;
+  }
+
+  &-graph {
+    justify-content: space-between;
+    align-items: end;
+    width: inherit;
+    gap: 0.2rem;
+
+    &--week {
+      width: inherit;
+      gap: 0.5rem;
+      cursor: pointer;
+
+      &__amt {
+        background-color: $color-neutral-dark-brown;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 0.65rem;
+        padding: 0.5rem;
+        opacity: 0;
+      }
+
+      &__bar {
+        height: 150px;
+        width: 35px;
+        background-color: $color-primary-red;
+        border-radius: 5px;
+      }
+
+      &__day {
+        color: $color-neutral-medium-brown;
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  &-underline {
+    background-color: $color-neutral-cream;
+    height: 2.5px;
+    width: 100%;
+  }
+
+  &-total {
+    justify-content: space-between;
+    width: inherit;
+    align-items: end;
+
+    & p {
+      color: $color-neutral-medium-brown;
+    }
+
+    &--curr {
+      align-items: start;
+      gap: 0.5rem;
+
+      &__amt {
+        font-size: 2.2rem;
+      }
+    }
+
+    &--prev {
+      align-items: end;
+
+      &__amt {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

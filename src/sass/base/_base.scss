@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  background-color: $color-neutral-cream;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  flex-grow: 2;
+  width: 100%;
+  gap: 1rem;
+}

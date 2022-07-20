@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./dist/css/main.css" />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body class="flex flex-col">
+    <div class="container flex flex-col">
+      <header class="header flex">
+        <div class="header-balance">
+          <p class="header-balance_text">My balance</p>
+          <h1 class="header-balance_amount">$921.48</h1>
+        </div>
+        <img class="header-logo" src="./src/images/logo.svg" alt="logo" />
+      </header>
+      <main class="spending flex flex-col">
+        <h1 class="spending-heading">Spending - Last 7 days</h1>
+        <section class="spending-graph flex"></section>
+        <div class="spending-underline"></div>
+        <section class="spending-total flex">
+          <div class="spending-total--curr flex flex-col">
+            <p>Total this month</p>
+            <h1 class="spending-total--curr__amt">$478.33</h1>
+          </div>
+          <div class="spending-total--prev flex flex-col">
+            <h3 class="spending-total--prev__amt">+2.4%</h3>
+            <p>from last month</p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Dabinder Udhan</a>.
+    </footer>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
