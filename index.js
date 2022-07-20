@@ -16,7 +16,7 @@ async function loadGraphData() {
   });
 }
 
-window.addEventListener("DOMContentLoaded", loadGraphData);
+window.addEventListener("DOMContentLoaded", loadGraphData());
 // loadGraphData();
 
 const graphBar = (day, amount) => {
