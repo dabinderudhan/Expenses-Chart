@@ -87,3 +87,9 @@
     }
   }
 }
+
+@media screen and (min-width: 500px) {
+  .spending-graph--week__bar {
+    width: 50px;
+  }
+}

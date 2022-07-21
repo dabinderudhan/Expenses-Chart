@@ -23,3 +23,9 @@ body {
   width: 100%;
   gap: 1rem;
 }
+
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+}
